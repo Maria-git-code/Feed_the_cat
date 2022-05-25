@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Lab 1</string>
+
+    <string name="feed">Feed</string>
+    <string name="satiety">Satiety %d</string>
+    <string name="feed_fragment_title">FeedTheCat</string>
+    <string name="statistics_fragment_title">Statistics</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="empty_statistics">Statistics is empty</string>
+    <string name="about_developer">About developer</string>
+    <string name="group">951006</string>
+    <string name="dev_name">Машкова Мария</string>
+    <string name="about">About</string>
+    <string name="guitarhero">GuitarHero</string>
+    <string name="loading_text">Loading for the sake of loading</string>
+    <string name="menu">Menu</string>
+    <string name="counter">Counter: %d</string>
+    <string name="select_user_or_create_new">Select user or create new</string>
+    <string name="create">Create</string>
+    <string name="create_user">create user</string>
+    <string name="list_is_empty">List is empty</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="configure">Configure</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_out">Sign out</string>
+    <string name="add_achievement">Add achievement</string>
+    <string name="achievement_part">%d from %d</string>
+    <string name="dialog_achievement_title">Select name</string>
+    <string name="dialog_achievement_name_hint">achievement name</string>
+    <string name="dialog_achievement_score_hint">achievement score</string>
+    <string name="dialog_achievement_add">Add</string>
+    <string name="dialog_achievement_cancel">Cancel</string>
+    <string name="dialog_achievement_invalid_fields">invalid fields</string>
+    <string name="next">Next</string>
+
+    <string name="screen_description_splash">Splash Screen. Program starts with that screen</string>
+    <string name="screen_description_menu">The main menu of the application. By clicking on the sign in / sign out button, you can sign in or sign out of your Google account. Clicking on the medal icon will open a window with achievements. Clicking on FEED will open a window with user selection. When you click on the GUITAR HERO button, a window with the game will open. Clicking on the ABOUT button will open the development information page</string>
+    <string name="screen_description_achievements">Achievement window in the cat feeding game</string>
+    <string name="screen_description_add_achievement">Dialog window to add achievement for cat feeding game </string>
+    <string name="screen_description_add_user">The window for creating or selecting a user for feeding a cat</string>
+    <string name="screen_description_feed">Window with cat feeding game</string>
+    <string name="screen_description_share">Window with share result of the feeding game</string>
+    <string name="screen_description_scores">Window with list of results</string>
+    <string name="screen_description_guitar">Guitar hero game. When you click on the circle, when it exactly enters the border into it, the counter increases</string>
+    <string name="screen_description_about">Development information: first and last name, group number and lab number</string>
+    <string name="image">image</string>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/feedFragment"
+        android:name="com.breaktime.lab1.view.feed.FeedFragment"
+        android:label="fragment_feed"
+        tools:layout="@layout/fragment_feed" >
+        <action
+            android:id="@+id/action_feedFragment_to_statisticsFragment"
+            app:destination="@id/statisticsFragment" />
+        <argument
+            android:name="username"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:name="com.breaktime.lab1.view.statistics.StatisticsFragment"
+        android:label="fragment_statistics"
+        tools:layout="@layout/fragment_statistics" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.breaktime.lab1.view.about.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/guitarHeroFragment"
+        android:name="com.breaktime.lab1.view.guitar_hero.GuitarHeroFragment"
+        android:label="fragment_guitar_hero"
+        tools:layout="@layout/fragment_guitar_hero" />
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.breaktime.lab1.view.menu.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_guitarHeroFragment"
+            app:destination="@id/guitarHeroFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_userSelectionFragment"
+            app:destination="@id/userSelectionFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_achievementsFragment"
+            app:destination="@id/achievementsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.breaktime.lab1.view.splash.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.breaktime.lab1.view.info.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/userSelectionFragment"
+        android:name="com.breaktime.lab1.view.user_selection.UserSelectionFragment"
+        android:label="fragment_user_selection"
+        tools:layout="@layout/fragment_user_selection" >
+        <action
+            android:id="@+id/action_userSelectionFragment_to_feedFragment"
+            app:destination="@id/feedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/achievementsFragment"
+        android:name="com.breaktime.lab1.view.achievements.AchievementsFragment"
+        android:label="fragment_achivements"
+        tools:layout="@layout/fragment_achivements" />
+</navigation>
